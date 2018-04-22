@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip'")
+       file='/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip'")
 
-  file("" "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip" actual_value)
+  file("" "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS " hash of
-    /home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip
+    /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip" STREQUAL "")
+if("/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/google/googletest/archive/master.zip" STREQUAL "")
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip")
+if(EXISTS "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip'
+  file='/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip'
   =''"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip")
+      file(REMOVE "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip'
+  file='/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip")
+    file(REMOVE "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip'
+   dst='/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip'
    timeout='none'"
 )
 
@@ -121,7 +121,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-        "${url}" "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip"
+        "${url}" "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip"
         SHOW_PROGRESS
         # no TIMEOUT
         STATUS status
@@ -137,7 +137,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-        file(REMOVE "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip")
+        file(REMOVE "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip")
       else()
         message(STATUS "Downloading... done")
         return()

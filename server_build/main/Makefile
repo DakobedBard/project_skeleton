@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles /home/mddarr/git/skeleton/server_build/main/CMakeFiles/progress.marks
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles /home/mddarr/repo/project_skeleton/server_build/main/CMakeFiles/progress.marks
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/clean
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 main/CMakeFiles/server.dir/rule:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/CMakeFiles/server.dir/rule
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 main/CMakeFiles/server.dir/rule
 .PHONY : main/CMakeFiles/server.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ server: main/CMakeFiles/server.dir/rule
 
 # fast build rule for target.
 server/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/build
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/build
 .PHONY : server/fast
 
 server.o: server.cpp.o
@@ -188,7 +188,7 @@ server.o: server.cpp.o
 
 # target to build an object file
 server.cpp.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/server.cpp.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/server.cpp.o
 .PHONY : server.cpp.o
 
 server.i: server.cpp.i
@@ -197,7 +197,7 @@ server.i: server.cpp.i
 
 # target to preprocess a source file
 server.cpp.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/server.cpp.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/server.cpp.i
 .PHONY : server.cpp.i
 
 server.s: server.cpp.s
@@ -206,7 +206,7 @@ server.s: server.cpp.s
 
 # target to generate assembly for a file
 server.cpp.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/server.cpp.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/server.cpp.s
 .PHONY : server.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

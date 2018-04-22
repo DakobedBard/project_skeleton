@@ -3,4 +3,5 @@
 
 main/CMakeFiles/server.dir/server.cpp.o: main/server.cpp
 main/CMakeFiles/server.dir/server.cpp.o: LinkedList/noncopyable.h
+main/CMakeFiles/server.dir/server.cpp.o: libbar/HttpUtils.h
 

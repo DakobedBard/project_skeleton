@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mddarr/git/skeleton/server_build/server -I/home/mddarr/git/skeleton/server_build/HashTable -I/home/mddarr/git/skeleton/server_build/LinkedList 
+CXX_INCLUDES = -I/home/mddarr/repo/project_skeleton/server_build/server -I/home/mddarr/repo/project_skeleton/server_build/HashTable -I/home/mddarr/repo/project_skeleton/server_build/LinkedList 
 

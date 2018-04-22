@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mddarr/git/skeleton/server_build/LinkedList/AssertionWrapper.c" "/home/mddarr/git/skeleton/server_build/LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o"
-  "/home/mddarr/git/skeleton/server_build/LinkedList/LinkedList.c" "/home/mddarr/git/skeleton/server_build/LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o"
+  "/home/mddarr/repo/project_skeleton/server_build/LinkedList/AssertionWrapper.c" "/home/mddarr/repo/project_skeleton/server_build/LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o"
+  "/home/mddarr/repo/project_skeleton/server_build/LinkedList/LinkedList.c" "/home/mddarr/repo/project_skeleton/server_build/LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

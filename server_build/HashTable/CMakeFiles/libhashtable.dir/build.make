@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # Include any dependencies generated for this target.
 include HashTable/CMakeFiles/libhashtable.dir/depend.make
@@ -59,42 +59,42 @@ include HashTable/CMakeFiles/libhashtable.dir/flags.make
 
 HashTable/CMakeFiles/libhashtable.dir/HashTable.c.o: HashTable/CMakeFiles/libhashtable.dir/flags.make
 HashTable/CMakeFiles/libhashtable.dir/HashTable.c.o: HashTable/HashTable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object HashTable/CMakeFiles/libhashtable.dir/HashTable.c.o"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libhashtable.dir/HashTable.c.o   -c /home/mddarr/git/skeleton/server_build/HashTable/HashTable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object HashTable/CMakeFiles/libhashtable.dir/HashTable.c.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libhashtable.dir/HashTable.c.o   -c /home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable.c
 
 HashTable/CMakeFiles/libhashtable.dir/HashTable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libhashtable.dir/HashTable.c.i"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/git/skeleton/server_build/HashTable/HashTable.c > CMakeFiles/libhashtable.dir/HashTable.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable.c > CMakeFiles/libhashtable.dir/HashTable.c.i
 
 HashTable/CMakeFiles/libhashtable.dir/HashTable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libhashtable.dir/HashTable.c.s"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/git/skeleton/server_build/HashTable/HashTable.c -o CMakeFiles/libhashtable.dir/HashTable.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable.c -o CMakeFiles/libhashtable.dir/HashTable.c.s
 
 HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.o: HashTable/CMakeFiles/libhashtable.dir/flags.make
 HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.o: HashTable/AssertionWrapper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.o"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libhashtable.dir/AssertionWrapper.c.o   -c /home/mddarr/git/skeleton/server_build/HashTable/AssertionWrapper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libhashtable.dir/AssertionWrapper.c.o   -c /home/mddarr/repo/project_skeleton/server_build/HashTable/AssertionWrapper.c
 
 HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libhashtable.dir/AssertionWrapper.c.i"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/git/skeleton/server_build/HashTable/AssertionWrapper.c > CMakeFiles/libhashtable.dir/AssertionWrapper.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/HashTable/AssertionWrapper.c > CMakeFiles/libhashtable.dir/AssertionWrapper.c.i
 
 HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libhashtable.dir/AssertionWrapper.c.s"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/git/skeleton/server_build/HashTable/AssertionWrapper.c -o CMakeFiles/libhashtable.dir/AssertionWrapper.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/HashTable/AssertionWrapper.c -o CMakeFiles/libhashtable.dir/AssertionWrapper.c.s
 
 HashTable/CMakeFiles/libhashtable.dir/gay.c.o: HashTable/CMakeFiles/libhashtable.dir/flags.make
 HashTable/CMakeFiles/libhashtable.dir/gay.c.o: HashTable/gay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object HashTable/CMakeFiles/libhashtable.dir/gay.c.o"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libhashtable.dir/gay.c.o   -c /home/mddarr/git/skeleton/server_build/HashTable/gay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object HashTable/CMakeFiles/libhashtable.dir/gay.c.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libhashtable.dir/gay.c.o   -c /home/mddarr/repo/project_skeleton/server_build/HashTable/gay.c
 
 HashTable/CMakeFiles/libhashtable.dir/gay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libhashtable.dir/gay.c.i"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/git/skeleton/server_build/HashTable/gay.c > CMakeFiles/libhashtable.dir/gay.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/HashTable/gay.c > CMakeFiles/libhashtable.dir/gay.c.i
 
 HashTable/CMakeFiles/libhashtable.dir/gay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libhashtable.dir/gay.c.s"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/git/skeleton/server_build/HashTable/gay.c -o CMakeFiles/libhashtable.dir/gay.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/HashTable/gay.c -o CMakeFiles/libhashtable.dir/gay.c.s
 
 # Object files for target libhashtable
 libhashtable_OBJECTS = \
@@ -110,9 +110,9 @@ HashTable/liblibhashtable.a: HashTable/CMakeFiles/libhashtable.dir/AssertionWrap
 HashTable/liblibhashtable.a: HashTable/CMakeFiles/libhashtable.dir/gay.c.o
 HashTable/liblibhashtable.a: HashTable/CMakeFiles/libhashtable.dir/build.make
 HashTable/liblibhashtable.a: HashTable/CMakeFiles/libhashtable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblibhashtable.a"
-	cd /home/mddarr/git/skeleton/server_build/HashTable && $(CMAKE_COMMAND) -P CMakeFiles/libhashtable.dir/cmake_clean_target.cmake
-	cd /home/mddarr/git/skeleton/server_build/HashTable && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libhashtable.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblibhashtable.a"
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && $(CMAKE_COMMAND) -P CMakeFiles/libhashtable.dir/cmake_clean_target.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libhashtable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 HashTable/CMakeFiles/libhashtable.dir/build: HashTable/liblibhashtable.a
@@ -120,10 +120,10 @@ HashTable/CMakeFiles/libhashtable.dir/build: HashTable/liblibhashtable.a
 .PHONY : HashTable/CMakeFiles/libhashtable.dir/build
 
 HashTable/CMakeFiles/libhashtable.dir/clean:
-	cd /home/mddarr/git/skeleton/server_build/HashTable && $(CMAKE_COMMAND) -P CMakeFiles/libhashtable.dir/cmake_clean.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/HashTable && $(CMAKE_COMMAND) -P CMakeFiles/libhashtable.dir/cmake_clean.cmake
 .PHONY : HashTable/CMakeFiles/libhashtable.dir/clean
 
 HashTable/CMakeFiles/libhashtable.dir/depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/HashTable /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/HashTable /home/mddarr/git/skeleton/server_build/HashTable/CMakeFiles/libhashtable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/HashTable /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/HashTable /home/mddarr/repo/project_skeleton/server_build/HashTable/CMakeFiles/libhashtable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : HashTable/CMakeFiles/libhashtable.dir/depend
 

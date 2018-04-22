@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles /home/mddarr/git/skeleton/server_build/LinkedList/CMakeFiles/progress.marks
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles /home/mddarr/repo/project_skeleton/server_build/LinkedList/CMakeFiles/progress.marks
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/clean
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 LinkedList/CMakeFiles/liblinkedlist.dir/rule:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/CMakeFiles/liblinkedlist.dir/rule
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 LinkedList/CMakeFiles/liblinkedlist.dir/rule
 .PHONY : LinkedList/CMakeFiles/liblinkedlist.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ liblinkedlist: LinkedList/CMakeFiles/liblinkedlist.dir/rule
 
 # fast build rule for target.
 liblinkedlist/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/build
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/build
 .PHONY : liblinkedlist/fast
 
 AssertionWrapper.o: AssertionWrapper.c.o
@@ -188,7 +188,7 @@ AssertionWrapper.o: AssertionWrapper.c.o
 
 # target to build an object file
 AssertionWrapper.c.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o
 .PHONY : AssertionWrapper.c.o
 
 AssertionWrapper.i: AssertionWrapper.c.i
@@ -197,7 +197,7 @@ AssertionWrapper.i: AssertionWrapper.c.i
 
 # target to preprocess a source file
 AssertionWrapper.c.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.i
 .PHONY : AssertionWrapper.c.i
 
 AssertionWrapper.s: AssertionWrapper.c.s
@@ -206,7 +206,7 @@ AssertionWrapper.s: AssertionWrapper.c.s
 
 # target to generate assembly for a file
 AssertionWrapper.c.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.s
 .PHONY : AssertionWrapper.c.s
 
 LinkedList.o: LinkedList.c.o
@@ -215,7 +215,7 @@ LinkedList.o: LinkedList.c.o
 
 # target to build an object file
 LinkedList.c.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o
 .PHONY : LinkedList.c.o
 
 LinkedList.i: LinkedList.c.i
@@ -224,7 +224,7 @@ LinkedList.i: LinkedList.c.i
 
 # target to preprocess a source file
 LinkedList.c.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.i
 .PHONY : LinkedList.c.i
 
 LinkedList.s: LinkedList.c.s
@@ -233,7 +233,7 @@ LinkedList.s: LinkedList.c.s
 
 # target to generate assembly for a file
 LinkedList.c.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.s
 .PHONY : LinkedList.c.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

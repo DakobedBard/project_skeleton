@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # Include any dependencies generated for this target.
 include libfoo/CMakeFiles/libfoo.dir/depend.make
@@ -59,29 +59,29 @@ include libfoo/CMakeFiles/libfoo.dir/flags.make
 
 libfoo/CMakeFiles/libfoo.dir/foo.cpp.o: libfoo/CMakeFiles/libfoo.dir/flags.make
 libfoo/CMakeFiles/libfoo.dir/foo.cpp.o: libfoo/foo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libfoo/CMakeFiles/libfoo.dir/foo.cpp.o"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libfoo.dir/foo.cpp.o -c /home/mddarr/git/skeleton/server_build/libfoo/foo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libfoo/CMakeFiles/libfoo.dir/foo.cpp.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libfoo.dir/foo.cpp.o -c /home/mddarr/repo/project_skeleton/server_build/libfoo/foo.cpp
 
 libfoo/CMakeFiles/libfoo.dir/foo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libfoo.dir/foo.cpp.i"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/git/skeleton/server_build/libfoo/foo.cpp > CMakeFiles/libfoo.dir/foo.cpp.i
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/libfoo/foo.cpp > CMakeFiles/libfoo.dir/foo.cpp.i
 
 libfoo/CMakeFiles/libfoo.dir/foo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libfoo.dir/foo.cpp.s"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/git/skeleton/server_build/libfoo/foo.cpp -o CMakeFiles/libfoo.dir/foo.cpp.s
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/libfoo/foo.cpp -o CMakeFiles/libfoo.dir/foo.cpp.s
 
 libfoo/CMakeFiles/libfoo.dir/gay.c.o: libfoo/CMakeFiles/libfoo.dir/flags.make
 libfoo/CMakeFiles/libfoo.dir/gay.c.o: libfoo/gay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libfoo/CMakeFiles/libfoo.dir/gay.c.o"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libfoo.dir/gay.c.o   -c /home/mddarr/git/skeleton/server_build/libfoo/gay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libfoo/CMakeFiles/libfoo.dir/gay.c.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libfoo.dir/gay.c.o   -c /home/mddarr/repo/project_skeleton/server_build/libfoo/gay.c
 
 libfoo/CMakeFiles/libfoo.dir/gay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libfoo.dir/gay.c.i"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/git/skeleton/server_build/libfoo/gay.c > CMakeFiles/libfoo.dir/gay.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/libfoo/gay.c > CMakeFiles/libfoo.dir/gay.c.i
 
 libfoo/CMakeFiles/libfoo.dir/gay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libfoo.dir/gay.c.s"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/git/skeleton/server_build/libfoo/gay.c -o CMakeFiles/libfoo.dir/gay.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/libfoo/gay.c -o CMakeFiles/libfoo.dir/gay.c.s
 
 # Object files for target libfoo
 libfoo_OBJECTS = \
@@ -95,9 +95,9 @@ libfoo/liblibfoo.a: libfoo/CMakeFiles/libfoo.dir/foo.cpp.o
 libfoo/liblibfoo.a: libfoo/CMakeFiles/libfoo.dir/gay.c.o
 libfoo/liblibfoo.a: libfoo/CMakeFiles/libfoo.dir/build.make
 libfoo/liblibfoo.a: libfoo/CMakeFiles/libfoo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibfoo.a"
-	cd /home/mddarr/git/skeleton/server_build/libfoo && $(CMAKE_COMMAND) -P CMakeFiles/libfoo.dir/cmake_clean_target.cmake
-	cd /home/mddarr/git/skeleton/server_build/libfoo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libfoo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibfoo.a"
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && $(CMAKE_COMMAND) -P CMakeFiles/libfoo.dir/cmake_clean_target.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libfoo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libfoo/CMakeFiles/libfoo.dir/build: libfoo/liblibfoo.a
@@ -105,10 +105,10 @@ libfoo/CMakeFiles/libfoo.dir/build: libfoo/liblibfoo.a
 .PHONY : libfoo/CMakeFiles/libfoo.dir/build
 
 libfoo/CMakeFiles/libfoo.dir/clean:
-	cd /home/mddarr/git/skeleton/server_build/libfoo && $(CMAKE_COMMAND) -P CMakeFiles/libfoo.dir/cmake_clean.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/libfoo && $(CMAKE_COMMAND) -P CMakeFiles/libfoo.dir/cmake_clean.cmake
 .PHONY : libfoo/CMakeFiles/libfoo.dir/clean
 
 libfoo/CMakeFiles/libfoo.dir/depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/libfoo /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/libfoo /home/mddarr/git/skeleton/server_build/libfoo/CMakeFiles/libfoo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/libfoo /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/libfoo /home/mddarr/repo/project_skeleton/server_build/libfoo/CMakeFiles/libfoo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libfoo/CMakeFiles/libfoo.dir/depend
 

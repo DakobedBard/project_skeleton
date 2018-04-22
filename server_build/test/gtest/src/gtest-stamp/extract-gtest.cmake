@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/mddarr/git/skeleton/server_build/test/gtest/src/master.zip" ABSOLUTE)
-get_filename_component(directory "/home/mddarr/git/skeleton/server_build/test/gtest/src/gtest" ABSOLUTE)
+get_filename_component(filename "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/master.zip" ABSOLUTE)
+get_filename_component(directory "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

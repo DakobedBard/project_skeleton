@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/mddarr/git/skeleton/server_build/HashTable -I/home/mddarr/git/skeleton/server_build/LinkedList 
+C_INCLUDES = -I/home/mddarr/repo/project_skeleton/server_build/HashTable -I/home/mddarr/repo/project_skeleton/server_build/LinkedList 
 

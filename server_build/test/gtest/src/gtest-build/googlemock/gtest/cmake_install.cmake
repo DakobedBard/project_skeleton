@@ -1,4 +1,4 @@
-# Install script for directory: /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest
+# Install script for directory: /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest/libgtest.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest/libgtest_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/include/gtest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/include/gtest")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/pkgconfig" TYPE FILE FILES
-    "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/gtest.pc"
-    "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/gtest_main.pc"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
+    "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/gtest.pc"
+    "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/gtest_main.pc"
     )
 endif()
 

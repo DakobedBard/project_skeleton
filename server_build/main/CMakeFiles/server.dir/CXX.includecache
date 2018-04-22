@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mddarr/git/skeleton/server_build/main/server.cpp
+/home/mddarr/repo/project_skeleton/server_build/main/server.cpp
 dirent.h
 -
 sys/types.h
@@ -28,7 +28,13 @@ iostream
 list
 -
 noncopyable.h
-/home/mddarr/git/skeleton/server_build/main/noncopyable.h
+/home/mddarr/repo/project_skeleton/server_build/main/noncopyable.h
+HttpUtils.h
+/home/mddarr/repo/project_skeleton/server_build/main/HttpUtils.h
 
 LinkedList/noncopyable.h
+
+libbar/HttpUtils.h
+stdint.h
+-
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles /home/mddarr/git/skeleton/server_build/libbar/CMakeFiles/progress.marks
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles /home/mddarr/repo/project_skeleton/server_build/libbar/CMakeFiles/progress.marks
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/clean
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libbar/CMakeFiles/libbar.dir/rule:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/CMakeFiles/libbar.dir/rule
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 libbar/CMakeFiles/libbar.dir/rule
 .PHONY : libbar/CMakeFiles/libbar.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ libbar: libbar/CMakeFiles/libbar.dir/rule
 
 # fast build rule for target.
 libbar/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/build
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/build
 .PHONY : libbar/fast
 
 HttpUtils.o: HttpUtils.cpp.o
@@ -188,7 +188,7 @@ HttpUtils.o: HttpUtils.cpp.o
 
 # target to build an object file
 HttpUtils.cpp.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o
 .PHONY : HttpUtils.cpp.o
 
 HttpUtils.i: HttpUtils.cpp.i
@@ -197,7 +197,7 @@ HttpUtils.i: HttpUtils.cpp.i
 
 # target to preprocess a source file
 HttpUtils.cpp.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.i
 .PHONY : HttpUtils.cpp.i
 
 HttpUtils.s: HttpUtils.cpp.s
@@ -206,7 +206,7 @@ HttpUtils.s: HttpUtils.cpp.s
 
 # target to generate assembly for a file
 HttpUtils.cpp.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.s
 .PHONY : HttpUtils.cpp.s
 
 bar.o: bar.cpp.o
@@ -215,7 +215,7 @@ bar.o: bar.cpp.o
 
 # target to build an object file
 bar.cpp.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/bar.cpp.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/bar.cpp.o
 .PHONY : bar.cpp.o
 
 bar.i: bar.cpp.i
@@ -224,7 +224,7 @@ bar.i: bar.cpp.i
 
 # target to preprocess a source file
 bar.cpp.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/bar.cpp.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/bar.cpp.i
 .PHONY : bar.cpp.i
 
 bar.s: bar.cpp.s
@@ -233,7 +233,7 @@ bar.s: bar.cpp.s
 
 # target to generate assembly for a file
 bar.cpp.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/bar.cpp.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/bar.cpp.s
 .PHONY : bar.cpp.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

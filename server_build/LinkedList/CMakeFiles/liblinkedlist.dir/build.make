@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # Include any dependencies generated for this target.
 include LinkedList/CMakeFiles/liblinkedlist.dir/depend.make
@@ -59,29 +59,29 @@ include LinkedList/CMakeFiles/liblinkedlist.dir/flags.make
 
 LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o: LinkedList/CMakeFiles/liblinkedlist.dir/flags.make
 LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o: LinkedList/LinkedList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liblinkedlist.dir/LinkedList.c.o   -c /home/mddarr/git/skeleton/server_build/LinkedList/LinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liblinkedlist.dir/LinkedList.c.o   -c /home/mddarr/repo/project_skeleton/server_build/LinkedList/LinkedList.c
 
 LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liblinkedlist.dir/LinkedList.c.i"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/git/skeleton/server_build/LinkedList/LinkedList.c > CMakeFiles/liblinkedlist.dir/LinkedList.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/LinkedList/LinkedList.c > CMakeFiles/liblinkedlist.dir/LinkedList.c.i
 
 LinkedList/CMakeFiles/liblinkedlist.dir/LinkedList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liblinkedlist.dir/LinkedList.c.s"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/git/skeleton/server_build/LinkedList/LinkedList.c -o CMakeFiles/liblinkedlist.dir/LinkedList.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/LinkedList/LinkedList.c -o CMakeFiles/liblinkedlist.dir/LinkedList.c.s
 
 LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o: LinkedList/CMakeFiles/liblinkedlist.dir/flags.make
 LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o: LinkedList/AssertionWrapper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o   -c /home/mddarr/git/skeleton/server_build/LinkedList/AssertionWrapper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o   -c /home/mddarr/repo/project_skeleton/server_build/LinkedList/AssertionWrapper.c
 
 LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.i"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/git/skeleton/server_build/LinkedList/AssertionWrapper.c > CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/LinkedList/AssertionWrapper.c > CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.i
 
 LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.s"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/git/skeleton/server_build/LinkedList/AssertionWrapper.c -o CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/LinkedList/AssertionWrapper.c -o CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.s
 
 # Object files for target liblinkedlist
 liblinkedlist_OBJECTS = \
@@ -95,9 +95,9 @@ LinkedList/libliblinkedlist.a: LinkedList/CMakeFiles/liblinkedlist.dir/LinkedLis
 LinkedList/libliblinkedlist.a: LinkedList/CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o
 LinkedList/libliblinkedlist.a: LinkedList/CMakeFiles/liblinkedlist.dir/build.make
 LinkedList/libliblinkedlist.a: LinkedList/CMakeFiles/liblinkedlist.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libliblinkedlist.a"
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && $(CMAKE_COMMAND) -P CMakeFiles/liblinkedlist.dir/cmake_clean_target.cmake
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/liblinkedlist.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libliblinkedlist.a"
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && $(CMAKE_COMMAND) -P CMakeFiles/liblinkedlist.dir/cmake_clean_target.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/liblinkedlist.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 LinkedList/CMakeFiles/liblinkedlist.dir/build: LinkedList/libliblinkedlist.a
@@ -105,10 +105,10 @@ LinkedList/CMakeFiles/liblinkedlist.dir/build: LinkedList/libliblinkedlist.a
 .PHONY : LinkedList/CMakeFiles/liblinkedlist.dir/build
 
 LinkedList/CMakeFiles/liblinkedlist.dir/clean:
-	cd /home/mddarr/git/skeleton/server_build/LinkedList && $(CMAKE_COMMAND) -P CMakeFiles/liblinkedlist.dir/cmake_clean.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/LinkedList && $(CMAKE_COMMAND) -P CMakeFiles/liblinkedlist.dir/cmake_clean.cmake
 .PHONY : LinkedList/CMakeFiles/liblinkedlist.dir/clean
 
 LinkedList/CMakeFiles/liblinkedlist.dir/depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/LinkedList /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/LinkedList /home/mddarr/git/skeleton/server_build/LinkedList/CMakeFiles/liblinkedlist.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/LinkedList /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/LinkedList /home/mddarr/repo/project_skeleton/server_build/LinkedList/CMakeFiles/liblinkedlist.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : LinkedList/CMakeFiles/liblinkedlist.dir/depend
 

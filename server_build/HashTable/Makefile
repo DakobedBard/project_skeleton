@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles /home/mddarr/git/skeleton/server_build/HashTable/CMakeFiles/progress.marks
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles /home/mddarr/repo/project_skeleton/server_build/HashTable/CMakeFiles/progress.marks
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/clean
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/preinstall
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 HashTable/CMakeFiles/libhashtable.dir/rule:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/CMakeFiles/libhashtable.dir/rule
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f CMakeFiles/Makefile2 HashTable/CMakeFiles/libhashtable.dir/rule
 .PHONY : HashTable/CMakeFiles/libhashtable.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ libhashtable: HashTable/CMakeFiles/libhashtable.dir/rule
 
 # fast build rule for target.
 libhashtable/fast:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/build
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/build
 .PHONY : libhashtable/fast
 
 AssertionWrapper.o: AssertionWrapper.c.o
@@ -188,7 +188,7 @@ AssertionWrapper.o: AssertionWrapper.c.o
 
 # target to build an object file
 AssertionWrapper.c.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.o
 .PHONY : AssertionWrapper.c.o
 
 AssertionWrapper.i: AssertionWrapper.c.i
@@ -197,7 +197,7 @@ AssertionWrapper.i: AssertionWrapper.c.i
 
 # target to preprocess a source file
 AssertionWrapper.c.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.i
 .PHONY : AssertionWrapper.c.i
 
 AssertionWrapper.s: AssertionWrapper.c.s
@@ -206,7 +206,7 @@ AssertionWrapper.s: AssertionWrapper.c.s
 
 # target to generate assembly for a file
 AssertionWrapper.c.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/AssertionWrapper.c.s
 .PHONY : AssertionWrapper.c.s
 
 HashTable.o: HashTable.c.o
@@ -215,7 +215,7 @@ HashTable.o: HashTable.c.o
 
 # target to build an object file
 HashTable.c.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/HashTable.c.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/HashTable.c.o
 .PHONY : HashTable.c.o
 
 HashTable.i: HashTable.c.i
@@ -224,7 +224,7 @@ HashTable.i: HashTable.c.i
 
 # target to preprocess a source file
 HashTable.c.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/HashTable.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/HashTable.c.i
 .PHONY : HashTable.c.i
 
 HashTable.s: HashTable.c.s
@@ -233,7 +233,7 @@ HashTable.s: HashTable.c.s
 
 # target to generate assembly for a file
 HashTable.c.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/HashTable.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/HashTable.c.s
 .PHONY : HashTable.c.s
 
 gay.o: gay.c.o
@@ -242,7 +242,7 @@ gay.o: gay.c.o
 
 # target to build an object file
 gay.c.o:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/gay.c.o
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/gay.c.o
 .PHONY : gay.c.o
 
 gay.i: gay.c.i
@@ -251,7 +251,7 @@ gay.i: gay.c.i
 
 # target to preprocess a source file
 gay.c.i:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/gay.c.i
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/gay.c.i
 .PHONY : gay.c.i
 
 gay.s: gay.c.s
@@ -260,7 +260,7 @@ gay.s: gay.c.s
 
 # target to generate assembly for a file
 gay.c.s:
-	cd /home/mddarr/git/skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/gay.c.s
+	cd /home/mddarr/repo/project_skeleton/server_build && $(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/gay.c.s
 .PHONY : gay.c.s
 
 # Help Target
@@ -297,6 +297,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

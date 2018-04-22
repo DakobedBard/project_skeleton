@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 #=============================================================================
 # Directory level rules for directory main
@@ -88,7 +88,7 @@ main/CMakeFiles/server.dir/all: HashTable/CMakeFiles/libhashtable.dir/all
 main/CMakeFiles/server.dir/all: server/CMakeFiles/libserver.dir/all
 	$(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/depend
 	$(MAKE) -f main/CMakeFiles/server.dir/build.make main/CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=24,25 "Built target server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=24,25 "Built target server"
 .PHONY : main/CMakeFiles/server.dir/all
 
 # Include target in all.
@@ -98,9 +98,9 @@ all: main/CMakeFiles/server.dir/all
 
 # Build rule for subdir invocation for target.
 main/CMakeFiles/server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 main/CMakeFiles/server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : main/CMakeFiles/server.dir/rule
 
 # Convenience name for target.
@@ -143,7 +143,7 @@ libfoo/preinstall:
 libfoo/CMakeFiles/libfoo.dir/all:
 	$(MAKE) -f libfoo/CMakeFiles/libfoo.dir/build.make libfoo/CMakeFiles/libfoo.dir/depend
 	$(MAKE) -f libfoo/CMakeFiles/libfoo.dir/build.make libfoo/CMakeFiles/libfoo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=12,13,14 "Built target libfoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=12,13,14 "Built target libfoo"
 .PHONY : libfoo/CMakeFiles/libfoo.dir/all
 
 # Include target in all.
@@ -153,9 +153,9 @@ all: libfoo/CMakeFiles/libfoo.dir/all
 
 # Build rule for subdir invocation for target.
 libfoo/CMakeFiles/libfoo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 libfoo/CMakeFiles/libfoo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : libfoo/CMakeFiles/libfoo.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ libbar/preinstall:
 libbar/CMakeFiles/libbar.dir/all: libfoo/CMakeFiles/libfoo.dir/all
 	$(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/depend
 	$(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=9,10,11 "Built target libbar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=9,10,11 "Built target libbar"
 .PHONY : libbar/CMakeFiles/libbar.dir/all
 
 # Include target in all.
@@ -208,9 +208,9 @@ all: libbar/CMakeFiles/libbar.dir/all
 
 # Build rule for subdir invocation for target.
 libbar/CMakeFiles/libbar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 libbar/CMakeFiles/libbar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : libbar/CMakeFiles/libbar.dir/rule
 
 # Convenience name for target.
@@ -253,7 +253,7 @@ LinkedList/preinstall:
 LinkedList/CMakeFiles/liblinkedlist.dir/all:
 	$(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/depend
 	$(MAKE) -f LinkedList/CMakeFiles/liblinkedlist.dir/build.make LinkedList/CMakeFiles/liblinkedlist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=19,20,21 "Built target liblinkedlist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=19,20,21 "Built target liblinkedlist"
 .PHONY : LinkedList/CMakeFiles/liblinkedlist.dir/all
 
 # Include target in all.
@@ -263,9 +263,9 @@ all: LinkedList/CMakeFiles/liblinkedlist.dir/all
 
 # Build rule for subdir invocation for target.
 LinkedList/CMakeFiles/liblinkedlist.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LinkedList/CMakeFiles/liblinkedlist.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : LinkedList/CMakeFiles/liblinkedlist.dir/rule
 
 # Convenience name for target.
@@ -308,7 +308,7 @@ HashTable/preinstall:
 HashTable/CMakeFiles/libhashtable.dir/all: LinkedList/CMakeFiles/liblinkedlist.dir/all
 	$(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/depend
 	$(MAKE) -f HashTable/CMakeFiles/libhashtable.dir/build.make HashTable/CMakeFiles/libhashtable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=15,16,17,18 "Built target libhashtable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=15,16,17,18 "Built target libhashtable"
 .PHONY : HashTable/CMakeFiles/libhashtable.dir/all
 
 # Include target in all.
@@ -318,9 +318,9 @@ all: HashTable/CMakeFiles/libhashtable.dir/all
 
 # Build rule for subdir invocation for target.
 HashTable/CMakeFiles/libhashtable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 HashTable/CMakeFiles/libhashtable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : HashTable/CMakeFiles/libhashtable.dir/rule
 
 # Convenience name for target.
@@ -365,7 +365,7 @@ test/preinstall: test/testfoo/preinstall
 test/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target gtest"
 .PHONY : test/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -375,9 +375,9 @@ all: test/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : test/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -421,7 +421,7 @@ test/testfoo/CMakeFiles/testfoo.dir/all: libfoo/CMakeFiles/libfoo.dir/all
 test/testfoo/CMakeFiles/testfoo.dir/all: test/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/depend
 	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=26,27,28 "Built target testfoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=26,27,28 "Built target testfoo"
 .PHONY : test/testfoo/CMakeFiles/testfoo.dir/all
 
 # Include target in all.
@@ -431,9 +431,9 @@ all: test/testfoo/CMakeFiles/testfoo.dir/all
 
 # Build rule for subdir invocation for target.
 test/testfoo/CMakeFiles/testfoo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 test/testfoo/CMakeFiles/testfoo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : test/testfoo/CMakeFiles/testfoo.dir/rule
 
 # Convenience name for target.
@@ -477,7 +477,7 @@ server/CMakeFiles/libserver.dir/all: LinkedList/CMakeFiles/liblinkedlist.dir/all
 server/CMakeFiles/libserver.dir/all: HashTable/CMakeFiles/libhashtable.dir/all
 	$(MAKE) -f server/CMakeFiles/libserver.dir/build.make server/CMakeFiles/libserver.dir/depend
 	$(MAKE) -f server/CMakeFiles/libserver.dir/build.make server/CMakeFiles/libserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=22,23 "Built target libserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=22,23 "Built target libserver"
 .PHONY : server/CMakeFiles/libserver.dir/all
 
 # Include target in all.
@@ -487,9 +487,9 @@ all: server/CMakeFiles/libserver.dir/all
 
 # Build rule for subdir invocation for target.
 server/CMakeFiles/libserver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 server/CMakeFiles/libserver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/git/skeleton/server_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/CMakeFiles 0
 .PHONY : server/CMakeFiles/libserver.dir/rule
 
 # Convenience name for target.

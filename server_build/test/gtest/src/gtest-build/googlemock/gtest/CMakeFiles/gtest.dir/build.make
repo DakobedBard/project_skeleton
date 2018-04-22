@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/cmake/nextproj/test/gtest/src/gtest
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build
 
 # Include any dependencies generated for this target.
 include googlemock/gtest/CMakeFiles/gtest.dir/depend.make
@@ -58,17 +58,17 @@ include googlemock/gtest/CMakeFiles/gtest.dir/progress.make
 include googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 
 googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: googlemock/gtest/CMakeFiles/gtest.dir/flags.make
-googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/src/gtest-all.cc
+googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/src/gtest-all.cc
 
 googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_EXTERNAL_OBJECTS =
 googlemock/gtest/libgtest.a: googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 googlemock/gtest/libgtest.a: googlemock/gtest/CMakeFiles/gtest.dir/build.make
 googlemock/gtest/libgtest.a: googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googlemock/gtest/CMakeFiles/gtest.dir/build: googlemock/gtest/libgtest.a
@@ -90,10 +90,10 @@ googlemock/gtest/CMakeFiles/gtest.dir/build: googlemock/gtest/libgtest.a
 .PHONY : googlemock/gtest/CMakeFiles/gtest.dir/build
 
 googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/cmake/nextproj/test/gtest/src/gtest /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : googlemock/gtest/CMakeFiles/gtest.dir/depend
 

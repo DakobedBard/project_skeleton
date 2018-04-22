@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # Include any dependencies generated for this target.
 include libbar/CMakeFiles/libbar.dir/depend.make
@@ -59,29 +59,29 @@ include libbar/CMakeFiles/libbar.dir/flags.make
 
 libbar/CMakeFiles/libbar.dir/bar.cpp.o: libbar/CMakeFiles/libbar.dir/flags.make
 libbar/CMakeFiles/libbar.dir/bar.cpp.o: libbar/bar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libbar/CMakeFiles/libbar.dir/bar.cpp.o"
-	cd /home/mddarr/git/skeleton/server_build/libbar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libbar.dir/bar.cpp.o -c /home/mddarr/git/skeleton/server_build/libbar/bar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libbar/CMakeFiles/libbar.dir/bar.cpp.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libbar.dir/bar.cpp.o -c /home/mddarr/repo/project_skeleton/server_build/libbar/bar.cpp
 
 libbar/CMakeFiles/libbar.dir/bar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libbar.dir/bar.cpp.i"
-	cd /home/mddarr/git/skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/git/skeleton/server_build/libbar/bar.cpp > CMakeFiles/libbar.dir/bar.cpp.i
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/libbar/bar.cpp > CMakeFiles/libbar.dir/bar.cpp.i
 
 libbar/CMakeFiles/libbar.dir/bar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libbar.dir/bar.cpp.s"
-	cd /home/mddarr/git/skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/git/skeleton/server_build/libbar/bar.cpp -o CMakeFiles/libbar.dir/bar.cpp.s
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/libbar/bar.cpp -o CMakeFiles/libbar.dir/bar.cpp.s
 
 libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o: libbar/CMakeFiles/libbar.dir/flags.make
 libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o: libbar/HttpUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o"
-	cd /home/mddarr/git/skeleton/server_build/libbar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libbar.dir/HttpUtils.cpp.o -c /home/mddarr/git/skeleton/server_build/libbar/HttpUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o"
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libbar.dir/HttpUtils.cpp.o -c /home/mddarr/repo/project_skeleton/server_build/libbar/HttpUtils.cpp
 
 libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libbar.dir/HttpUtils.cpp.i"
-	cd /home/mddarr/git/skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/git/skeleton/server_build/libbar/HttpUtils.cpp > CMakeFiles/libbar.dir/HttpUtils.cpp.i
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mddarr/repo/project_skeleton/server_build/libbar/HttpUtils.cpp > CMakeFiles/libbar.dir/HttpUtils.cpp.i
 
 libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libbar.dir/HttpUtils.cpp.s"
-	cd /home/mddarr/git/skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/git/skeleton/server_build/libbar/HttpUtils.cpp -o CMakeFiles/libbar.dir/HttpUtils.cpp.s
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mddarr/repo/project_skeleton/server_build/libbar/HttpUtils.cpp -o CMakeFiles/libbar.dir/HttpUtils.cpp.s
 
 # Object files for target libbar
 libbar_OBJECTS = \
@@ -95,9 +95,9 @@ libbar/liblibbar.a: libbar/CMakeFiles/libbar.dir/bar.cpp.o
 libbar/liblibbar.a: libbar/CMakeFiles/libbar.dir/HttpUtils.cpp.o
 libbar/liblibbar.a: libbar/CMakeFiles/libbar.dir/build.make
 libbar/liblibbar.a: libbar/CMakeFiles/libbar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibbar.a"
-	cd /home/mddarr/git/skeleton/server_build/libbar && $(CMAKE_COMMAND) -P CMakeFiles/libbar.dir/cmake_clean_target.cmake
-	cd /home/mddarr/git/skeleton/server_build/libbar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libbar.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibbar.a"
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && $(CMAKE_COMMAND) -P CMakeFiles/libbar.dir/cmake_clean_target.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libbar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libbar/CMakeFiles/libbar.dir/build: libbar/liblibbar.a
@@ -105,10 +105,10 @@ libbar/CMakeFiles/libbar.dir/build: libbar/liblibbar.a
 .PHONY : libbar/CMakeFiles/libbar.dir/build
 
 libbar/CMakeFiles/libbar.dir/clean:
-	cd /home/mddarr/git/skeleton/server_build/libbar && $(CMAKE_COMMAND) -P CMakeFiles/libbar.dir/cmake_clean.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/libbar && $(CMAKE_COMMAND) -P CMakeFiles/libbar.dir/cmake_clean.cmake
 .PHONY : libbar/CMakeFiles/libbar.dir/clean
 
 libbar/CMakeFiles/libbar.dir/depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/libbar /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/libbar /home/mddarr/git/skeleton/server_build/libbar/CMakeFiles/libbar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/libbar /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/libbar /home/mddarr/repo/project_skeleton/server_build/libbar/CMakeFiles/libbar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libbar/CMakeFiles/libbar.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/mddarr/git/skeleton/server_build/libbar
+# Install script for directory: /home/mddarr/repo/project_skeleton/server_build/libbar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

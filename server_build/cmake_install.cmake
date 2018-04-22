@@ -1,4 +1,4 @@
-# Install script for directory: /home/mddarr/git/skeleton/server_build
+# Install script for directory: /home/mddarr/repo/project_skeleton/server_build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mddarr/git/skeleton/server_build/main/cmake_install.cmake")
-  include("/home/mddarr/git/skeleton/server_build/libfoo/cmake_install.cmake")
-  include("/home/mddarr/git/skeleton/server_build/libbar/cmake_install.cmake")
-  include("/home/mddarr/git/skeleton/server_build/LinkedList/cmake_install.cmake")
-  include("/home/mddarr/git/skeleton/server_build/HashTable/cmake_install.cmake")
-  include("/home/mddarr/git/skeleton/server_build/test/cmake_install.cmake")
-  include("/home/mddarr/git/skeleton/server_build/server/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/main/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/libfoo/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/libbar/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/LinkedList/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/HashTable/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/test/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/server/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mddarr/git/skeleton/server_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mddarr/repo/project_skeleton/server_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

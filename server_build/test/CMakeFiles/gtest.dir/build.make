@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/git/skeleton/server_build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build
 
 # Utility rule file for gtest.
 
@@ -64,55 +64,55 @@ test/CMakeFiles/gtest-complete: test/gtest/src/gtest-stamp/gtest-patch
 test/CMakeFiles/gtest-complete: test/gtest/src/gtest-stamp/gtest-configure
 test/CMakeFiles/gtest-complete: test/gtest/src/gtest-stamp/gtest-build
 test/CMakeFiles/gtest-complete: test/gtest/src/gtest-stamp/gtest-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/CMakeFiles
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/CMakeFiles/gtest-complete
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/CMakeFiles
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/CMakeFiles/gtest-complete
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-done
 
 test/gtest/src/gtest-stamp/gtest-install: test/gtest/src/gtest-stamp/gtest-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E echo_append
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E echo_append
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-install
 
 test/gtest/src/gtest-stamp/gtest-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/gtest
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/gtest/tmp
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/git/skeleton/server_build/test/gtest/src
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/gtest
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/gtest/tmp
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E make_directory /home/mddarr/repo/project_skeleton/server_build/test/gtest/src
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-mkdir
 
 test/gtest/src/gtest-stamp/gtest-download: test/gtest/src/gtest-stamp/gtest-urlinfo.txt
 test/gtest/src/gtest-stamp/gtest-download: test/gtest/src/gtest-stamp/gtest-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src && /usr/bin/cmake -P /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/download-gtest.cmake
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src && /usr/bin/cmake -P /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/verify-gtest.cmake
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src && /usr/bin/cmake -P /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/extract-gtest.cmake
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src && /usr/bin/cmake -P /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/download-gtest.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src && /usr/bin/cmake -P /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/verify-gtest.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src && /usr/bin/cmake -P /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/extract-gtest.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-download
 
 test/gtest/src/gtest-stamp/gtest-update: test/gtest/src/gtest-stamp/gtest-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E echo_append
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E echo_append
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-update
 
 test/gtest/src/gtest-stamp/gtest-patch: test/gtest/src/gtest-stamp/gtest-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E echo_append
-	cd /home/mddarr/git/skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E echo_append
+	cd /home/mddarr/repo/project_skeleton/server_build/test && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-patch
 
 test/gtest/src/gtest-stamp/gtest-configure: test/gtest/tmp/gtest-cfgcmd.txt
 test/gtest/src/gtest-stamp/gtest-configure: test/gtest/src/gtest-stamp/gtest-update
 test/gtest/src/gtest-stamp/gtest-configure: test/gtest/src/gtest-stamp/gtest-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake "-GUnix Makefiles" /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake "-GUnix Makefiles" /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-configure
 
 test/gtest/src/gtest-stamp/gtest-build: test/gtest/src/gtest-stamp/gtest-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/git/skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'gtest'"
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build && $(MAKE)
-	cd /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E touch /home/mddarr/git/skeleton/server_build/test/gtest/src/gtest-stamp/gtest-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mddarr/repo/project_skeleton/server_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'gtest'"
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && $(MAKE)
+	cd /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build && /usr/bin/cmake -E touch /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-stamp/gtest-build
 
 gtest: test/CMakeFiles/gtest
 gtest: test/CMakeFiles/gtest-complete
@@ -133,10 +133,10 @@ test/CMakeFiles/gtest.dir/build: gtest
 .PHONY : test/CMakeFiles/gtest.dir/build
 
 test/CMakeFiles/gtest.dir/clean:
-	cd /home/mddarr/git/skeleton/server_build/test && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/mddarr/repo/project_skeleton/server_build/test && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/gtest.dir/clean
 
 test/CMakeFiles/gtest.dir/depend:
-	cd /home/mddarr/git/skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/test /home/mddarr/git/skeleton/server_build /home/mddarr/git/skeleton/server_build/test /home/mddarr/git/skeleton/server_build/test/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mddarr/repo/project_skeleton/server_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/test /home/mddarr/repo/project_skeleton/server_build /home/mddarr/repo/project_skeleton/server_build/test /home/mddarr/repo/project_skeleton/server_build/test/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/gtest.dir/depend
 

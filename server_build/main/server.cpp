@@ -31,6 +31,7 @@
 
 
 #include "noncopyable.h"
+#include "HttpUtils.h"
 
 
 using std::cerr;
@@ -40,5 +41,5 @@ using std::endl;
 
 int main(int argc, char **argv){
 
-
+	
 }

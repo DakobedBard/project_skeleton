@@ -1,4 +1,4 @@
-# Install script for directory: /home/mddarr/git/skeleton/server_build/HashTable
+# Install script for directory: /home/mddarr/repo/project_skeleton/server_build/HashTable
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

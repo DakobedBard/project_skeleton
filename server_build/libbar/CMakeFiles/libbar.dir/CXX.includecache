@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mddarr/git/skeleton/server_build/libbar/HttpUtils.cpp
+/home/mddarr/repo/project_skeleton/server_build/libbar/HttpUtils.cpp
 HttpUtils.h
-/home/mddarr/git/skeleton/server_build/libbar/HttpUtils.h
+/home/mddarr/repo/project_skeleton/server_build/libbar/HttpUtils.h
 stdlib.h
 -
 unistd.h
@@ -16,13 +16,13 @@ unistd.h
 iostream
 -
 
-/home/mddarr/git/skeleton/server_build/libbar/HttpUtils.h
+/home/mddarr/repo/project_skeleton/server_build/libbar/HttpUtils.h
 stdint.h
 -
 
-/home/mddarr/git/skeleton/server_build/libbar/bar.cpp
+/home/mddarr/repo/project_skeleton/server_build/libbar/bar.cpp
 bar.h
-/home/mddarr/git/skeleton/server_build/libbar/bar.h
+/home/mddarr/repo/project_skeleton/server_build/libbar/bar.h
 stdlib.h
 -
 unistd.h
@@ -30,9 +30,9 @@ unistd.h
 iostream
 -
 
-/home/mddarr/git/skeleton/server_build/libbar/bar.h
+/home/mddarr/repo/project_skeleton/server_build/libbar/bar.h
 ibar.h
-/home/mddarr/git/skeleton/server_build/libbar/ibar.h
+/home/mddarr/repo/project_skeleton/server_build/libbar/ibar.h
 stdint.h
 -
 

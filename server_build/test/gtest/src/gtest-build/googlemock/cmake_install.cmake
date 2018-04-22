@@ -1,4 +1,4 @@
-# Install script for directory: /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock
+# Install script for directory: /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,27 +38,27 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/libgmock.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE STATIC_LIBRARY FILES "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/libgmock_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock/include/gmock")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock/include/gmock")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/pkgconfig" TYPE FILE FILES
-    "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/gmock.pc"
-    "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/gmock_main.pc"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
+    "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/gmock.pc"
+    "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/gmock_main.pc"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest/cmake_install.cmake")
+  include("/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

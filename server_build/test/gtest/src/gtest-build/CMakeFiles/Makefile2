@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mddarr/cmake/nextproj/test/gtest/src/gtest
+CMAKE_SOURCE_DIR = /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build
+CMAKE_BINARY_DIR = /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build
 
 #=============================================================================
 # Directory level rules for directory googlemock
@@ -89,7 +89,7 @@ googlemock/CMakeFiles/gmock_main.dir/all: googlemock/CMakeFiles/gmock.dir/all
 googlemock/CMakeFiles/gmock_main.dir/all: googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googlemock/CMakeFiles/gmock_main.dir/build.make googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googlemock/CMakeFiles/gmock_main.dir/build.make googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -99,9 +99,9 @@ all: googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 0
 .PHONY : googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ clean: googlemock/CMakeFiles/gmock_main.dir/clean
 googlemock/CMakeFiles/gmock.dir/all: googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googlemock/CMakeFiles/gmock.dir/build.make googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f googlemock/CMakeFiles/gmock.dir/build.make googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -136,9 +136,9 @@ all: googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 0
 .PHONY : googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ googlemock/gtest/preinstall:
 googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f googlemock/gtest/CMakeFiles/gtest.dir/build.make googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f googlemock/gtest/CMakeFiles/gtest.dir/build.make googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -193,9 +193,9 @@ all: googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 googlemock/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 googlemock/gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 0
 .PHONY : googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -220,7 +220,7 @@ clean: googlemock/gtest/CMakeFiles/gtest.dir/clean
 googlemock/gtest/CMakeFiles/gtest_main.dir/all: googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -230,9 +230,9 @@ all: googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 googlemock/gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles 0
 .PHONY : googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

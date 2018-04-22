@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/mddarr/git/skeleton/server_build/test/testfoo/main.cpp
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/main.cpp
 gtest/gtest.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/gtest/gtest.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/gtest/gtest.h
 
-/home/mddarr/git/skeleton/server_build/test/testfoo/mockbar.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/mockbar.h
 gmock/gmock.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/gmock/gmock.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/gmock/gmock.h
 ibar.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/ibar.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/ibar.h
 
-/home/mddarr/git/skeleton/server_build/test/testfoo/testfoo.cpp
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/testfoo.cpp
 foo.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/foo.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/foo.h
 testfoo.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/testfoo.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/testfoo.h
 
-/home/mddarr/git/skeleton/server_build/test/testfoo/testfoo.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/testfoo.h
 gtest/gtest.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/gtest/gtest.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/gtest/gtest.h
 mockbar.h
-/home/mddarr/git/skeleton/server_build/test/testfoo/mockbar.h
+/home/mddarr/repo/project_skeleton/server_build/test/testfoo/mockbar.h
 
 libfoo/foo.h
 

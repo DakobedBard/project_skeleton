@@ -6,5 +6,5 @@ CXX_FLAGS =    -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock/include -I/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock -isystem /home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/include -I/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest 
+CXX_INCLUDES = -I/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock/include -I/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock -isystem /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/include -I/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest 
 

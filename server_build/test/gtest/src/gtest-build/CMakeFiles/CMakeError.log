@@ -1,25 +1,26 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp
+Change Dir: /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/gmake "cmTryCompileExec3374225858/fast"
-gmake[3]: Entering directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3374225858.dir/build.make CMakeFiles/cmTryCompileExec3374225858.dir/build
-gmake[4]: Entering directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3374225858.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3374225858.dir/CheckSymbolExists.c.o   -c /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec3374225858
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3374225858.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3374225858.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3374225858 -rdynamic 
-CMakeFiles/cmTryCompileExec3374225858.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/gmake" "cmTC_a2613/fast"
+gmake[3]: Entering directory '/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_a2613.dir/build.make CMakeFiles/cmTC_a2613.dir/build
+gmake[4]: Entering directory '/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2613.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a2613.dir/CheckSymbolExists.c.o   -c /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a2613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2613.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a2613.dir/CheckSymbolExists.c.o  -o cmTC_a2613 
+CMakeFiles/cmTC_a2613.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-gmake[4]: *** [cmTryCompileExec3374225858] Error 1
-gmake[4]: Leaving directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-gmake[3]: *** [cmTryCompileExec3374225858/fast] Error 2
-gmake[3]: Leaving directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_a2613.dir/build.make:86: recipe for target 'cmTC_a2613' failed
+gmake[4]: *** [cmTC_a2613] Error 1
+gmake[4]: Leaving directory '/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a2613/fast' failed
+gmake[3]: *** [cmTC_a2613/fast] Error 2
+gmake[3]: Leaving directory '/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
 
-File /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,25 +34,4 @@ int main(int argc, char** argv)
   return 0;
 #endif
 }
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/gmake "cmTryCompileExec2869215091/fast"
-gmake[3]: Entering directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2869215091.dir/build.make CMakeFiles/cmTryCompileExec2869215091.dir/build
-gmake[4]: Entering directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2869215091.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2869215091.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2869215091
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2869215091.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2869215091.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2869215091 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-gmake[4]: *** [cmTryCompileExec2869215091] Error 1
-gmake[4]: Leaving directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-gmake[3]: *** [cmTryCompileExec2869215091/fast] Error 2
-gmake[3]: Leaving directory `/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/CMakeFiles/CMakeTmp'
-
 

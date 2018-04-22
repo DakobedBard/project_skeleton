@@ -7,11 +7,11 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/mddarr/git/skeleton/server_build/libfoo 
+C_INCLUDES = -I/home/mddarr/repo/project_skeleton/server_build/libfoo 
 
 CXX_FLAGS =  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mddarr/git/skeleton/server_build/libfoo 
+CXX_INCLUDES = -I/home/mddarr/repo/project_skeleton/server_build/libfoo 
 

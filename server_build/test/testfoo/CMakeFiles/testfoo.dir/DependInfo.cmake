@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mddarr/git/skeleton/server_build/test/testfoo/main.cpp" "/home/mddarr/git/skeleton/server_build/test/testfoo/CMakeFiles/testfoo.dir/main.cpp.o"
-  "/home/mddarr/git/skeleton/server_build/test/testfoo/testfoo.cpp" "/home/mddarr/git/skeleton/server_build/test/testfoo/CMakeFiles/testfoo.dir/testfoo.cpp.o"
+  "/home/mddarr/repo/project_skeleton/server_build/test/testfoo/main.cpp" "/home/mddarr/repo/project_skeleton/server_build/test/testfoo/CMakeFiles/testfoo.dir/main.cpp.o"
+  "/home/mddarr/repo/project_skeleton/server_build/test/testfoo/testfoo.cpp" "/home/mddarr/repo/project_skeleton/server_build/test/testfoo/CMakeFiles/testfoo.dir/testfoo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mddarr/git/skeleton/server_build/libfoo/CMakeFiles/libfoo.dir/DependInfo.cmake"
+  "/home/mddarr/repo/project_skeleton/server_build/libfoo/CMakeFiles/libfoo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

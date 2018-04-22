@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/mddarr/git/skeleton/server_build/HashTable/./AssertionWrapper.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./AssertionWrapper.h
 
-/home/mddarr/git/skeleton/server_build/HashTable/./HashTable.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./HashTable.h
 stdbool.h
 -
 stdint.h
 -
 
-/home/mddarr/git/skeleton/server_build/HashTable/AssertionWrapper.c
+/home/mddarr/repo/project_skeleton/server_build/HashTable/AssertionWrapper.c
 stdio.h
 -
 stdlib.h
@@ -22,11 +22,11 @@ stdlib.h
 string.h
 -
 ./AssertionWrapper.h
-/home/mddarr/git/skeleton/server_build/HashTable/./AssertionWrapper.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./AssertionWrapper.h
 
-/home/mddarr/git/skeleton/server_build/HashTable/AssertionWrapper.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/AssertionWrapper.h
 
-/home/mddarr/git/skeleton/server_build/HashTable/HashTable.c
+/home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable.c
 stdio.h
 -
 stdlib.h
@@ -34,35 +34,35 @@ stdlib.h
 stdint.h
 -
 AssertionWrapper.h
-/home/mddarr/git/skeleton/server_build/HashTable/AssertionWrapper.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/AssertionWrapper.h
 HashTable.h
-/home/mddarr/git/skeleton/server_build/HashTable/HashTable.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable.h
 HashTable_priv.h
-/home/mddarr/git/skeleton/server_build/HashTable/HashTable_priv.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable_priv.h
 
-/home/mddarr/git/skeleton/server_build/HashTable/HashTable.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable.h
 stdbool.h
 -
 stdint.h
 -
 
-/home/mddarr/git/skeleton/server_build/HashTable/HashTable_priv.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/HashTable_priv.h
 ./LinkedList.h
-/home/mddarr/git/skeleton/server_build/HashTable/./LinkedList.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./LinkedList.h
 ./HashTable.h
-/home/mddarr/git/skeleton/server_build/HashTable/./HashTable.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./HashTable.h
 
-/home/mddarr/git/skeleton/server_build/HashTable/gay.c
+/home/mddarr/repo/project_skeleton/server_build/HashTable/gay.c
 gay.h
-/home/mddarr/git/skeleton/server_build/HashTable/gay.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/gay.h
 ./LinkedList.h
-/home/mddarr/git/skeleton/server_build/HashTable/./LinkedList.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./LinkedList.h
 ./LinkedList_priv.h
-/home/mddarr/git/skeleton/server_build/HashTable/./LinkedList_priv.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./LinkedList_priv.h
 
-/home/mddarr/git/skeleton/server_build/HashTable/gay.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/gay.h
 ./LinkedList.h
-/home/mddarr/git/skeleton/server_build/HashTable/./LinkedList.h
+/home/mddarr/repo/project_skeleton/server_build/HashTable/./LinkedList.h
 
 LinkedList/./LinkedList.h
 stdbool.h

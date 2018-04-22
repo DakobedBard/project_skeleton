@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock/src/gmock-all.cc" "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+  "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock/src/gmock-all.cc" "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock/include"
-  "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googlemock"
-  "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest/include"
-  "/home/mddarr/cmake/nextproj/test/gtest/src/gtest/googletest"
+  "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock/include"
+  "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googlemock"
+  "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest/include"
+  "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mddarr/cmake/nextproj/test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/mddarr/repo/project_skeleton/server_build/test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mddarr/git/skeleton/server_build/server/./HttpUtils.h
+/home/mddarr/repo/project_skeleton/server_build/server/./HttpUtils.h
 stdint.h
 -
 
-/home/mddarr/git/skeleton/server_build/server/HttpUtils.cpp
+/home/mddarr/repo/project_skeleton/server_build/server/HttpUtils.cpp
 stdint.h
 -
 stdio.h
@@ -28,5 +28,5 @@ unistd.h
 iostream
 -
 ./HttpUtils.h
-/home/mddarr/git/skeleton/server_build/server/./HttpUtils.h
+/home/mddarr/repo/project_skeleton/server_build/server/./HttpUtils.h
 

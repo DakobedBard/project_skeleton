@@ -1,0 +1,19 @@
+set(Main_SRCS
+	server.cpp
+)
+
+add_executable(server ${Main_SRCS})
+
+target_link_libraries(server
+    	libfoo
+    	libbar
+	liblinkedlist
+	libhashtable
+	libserver
+	pthread
+)
+
+
+
+
+install (TARGETS server DESTINATION bin)

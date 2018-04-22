@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibhashtable.a  CMakeFiles/libhashtable.dir/HashTable.c.o CMakeFiles/libhashtable.dir/AssertionWrapper.c.o CMakeFiles/libhashtable.dir/gay.c.o
+/usr/bin/ranlib liblibhashtable.a

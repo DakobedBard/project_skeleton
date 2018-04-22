@@ -1,0 +1,9 @@
+#include "gay.h"
+#include "./LinkedList.h"
+#include "./LinkeddList_priv.h"
+
+
+
+int gay_number(){
+	return 2;
+}

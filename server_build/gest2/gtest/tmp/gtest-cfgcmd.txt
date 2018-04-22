@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-GUnix Makefiles;/home/mddarr/cmake/server_build/test/gtest/src/gtest'

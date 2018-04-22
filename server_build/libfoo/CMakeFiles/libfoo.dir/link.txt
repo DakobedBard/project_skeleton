@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibfoo.a  CMakeFiles/libfoo.dir/foo.cpp.o CMakeFiles/libfoo.dir/gay.c.o
+/usr/bin/ranlib liblibfoo.a

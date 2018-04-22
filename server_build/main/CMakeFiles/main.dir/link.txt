@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic ../libfoo/liblibfoo.a ../libbar/liblibbar.a ../LinkedList/libliblinkedlist.a ../HashTable/liblibhashtable.a ../query/liblibquery.a ../libfoo/liblibfoo.a ../HashTable/liblibhashtable.a ../LinkedList/libliblinkedlist.a 

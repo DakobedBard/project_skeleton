@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/server.dir/server.cpp.o  -o server ../libfoo/liblibfoo.a ../libbar/liblibbar.a ../LinkedList/libliblinkedlist.a ../HashTable/liblibhashtable.a ../server/liblibserver.a -lpthread ../libfoo/liblibfoo.a ../HashTable/liblibhashtable.a ../LinkedList/libliblinkedlist.a 

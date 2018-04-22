@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mddarr/git/skeleton/server_build/main/server.cpp
+dirent.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+signal.h
+-
+cstdlib
+-
+cstdio
+-
+iostream
+-
+list
+-
+noncopyable.h
+/home/mddarr/git/skeleton/server_build/main/noncopyable.h
+
+LinkedList/noncopyable.h
+

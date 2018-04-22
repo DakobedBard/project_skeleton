@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mddarr/git/skeleton/server_build/server/./HttpUtils.h
+stdint.h
+-
+
+/home/mddarr/git/skeleton/server_build/server/HttpUtils.cpp
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+iostream
+-
+./HttpUtils.h
+/home/mddarr/git/skeleton/server_build/server/./HttpUtils.h
+

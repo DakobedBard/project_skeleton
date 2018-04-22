@@ -1,0 +1,2 @@
+/usr/bin/ar qc libliblinkedlist.a  CMakeFiles/liblinkedlist.dir/LinkedList.c.o CMakeFiles/liblinkedlist.dir/AssertionWrapper.c.o
+/usr/bin/ranlib libliblinkedlist.a

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mddarr/git/skeleton/server_build/libfoo/foo.cpp
+ibar.h
+/home/mddarr/git/skeleton/server_build/libfoo/ibar.h
+foo.h
+/home/mddarr/git/skeleton/server_build/libfoo/foo.h
+iostream
+-
+
+/home/mddarr/git/skeleton/server_build/libfoo/foo.h
+
+/home/mddarr/git/skeleton/server_build/libfoo/ibar.h
+

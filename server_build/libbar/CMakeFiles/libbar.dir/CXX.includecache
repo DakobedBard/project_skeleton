@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mddarr/git/skeleton/server_build/libbar/HttpUtils.cpp
+HttpUtils.h
+/home/mddarr/git/skeleton/server_build/libbar/HttpUtils.h
+stdlib.h
+-
+unistd.h
+-
+iostream
+-
+
+/home/mddarr/git/skeleton/server_build/libbar/HttpUtils.h
+stdint.h
+-
+
+/home/mddarr/git/skeleton/server_build/libbar/bar.cpp
+bar.h
+/home/mddarr/git/skeleton/server_build/libbar/bar.h
+stdlib.h
+-
+unistd.h
+-
+iostream
+-
+
+/home/mddarr/git/skeleton/server_build/libbar/bar.h
+ibar.h
+/home/mddarr/git/skeleton/server_build/libbar/ibar.h
+stdint.h
+-
+
+libfoo/ibar.h
+

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mddarr/git/skeleton/server_build/libfoo/gay.c
+gay.h
+/home/mddarr/git/skeleton/server_build/libfoo/gay.h
+
+/home/mddarr/git/skeleton/server_build/libfoo/gay.h
+

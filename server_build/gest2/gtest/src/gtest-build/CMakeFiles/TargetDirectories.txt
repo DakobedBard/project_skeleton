@@ -1,0 +1,4 @@
+/home/mddarr/cmake/server_build/test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock.dir
+/home/mddarr/cmake/server_build/test/gtest/src/gtest-build/googlemock/CMakeFiles/gmock_main.dir
+/home/mddarr/cmake/server_build/test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest.dir
+/home/mddarr/cmake/server_build/test/gtest/src/gtest-build/googlemock/gtest/CMakeFiles/gtest_main.dir

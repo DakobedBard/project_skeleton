@@ -1,0 +1,39 @@
+set(libbar_SRCS HttpUtils.h 
+		HttpUtils.cpp
+		HttpResponse.h
+		HttpRequest.h
+		HttpConnection.cpp
+		HttpConnection.h
+		HttpConnection.cpp
+		ThreadPool.h
+		ThreadPool.cpp
+		ServerSocket.h
+		ServerSocket.cpp
+		FileReader.h
+		FileReader.cpp
+		HttpServer.h
+		HttpServer.cpp
+
+
+)
+
+#Declare the library
+
+add_library(libserver STATIC ${libbar_SRCS} )
+ADD_DEFINITIONS(
+    -std=c++11 # Or -std=c++0x
+    # Other flags
+)
+
+
+target_link_libraries(  libserver 
+			libhashtable 
+			liblinkedlist
+			libquery )
+
+
+#Specify here the include directories exported by this library
+
+target_include_directories(libserver PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+
